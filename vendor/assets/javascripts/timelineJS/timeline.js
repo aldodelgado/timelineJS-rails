@@ -6072,11 +6072,11 @@ if (typeof VMM.Slider != 'undefined') {
 							tag		= VMM.createElement("span", data.tag, "slide-tag");
 						}
 
-						if (st != en) {
-							c.text += VMM.createElement("h2", st + " &mdash; " + en + tag, "date");
-						} else {
-							c.text += VMM.createElement("h2", st + tag, "date");
-						}
+						//if (st != en) {
+						//	c.text += VMM.createElement("h2", st + " &mdash; " + en + tag, "date");
+						//} else {
+						//	c.text += VMM.createElement("h2", st + tag, "date");
+						//}
 					}
 				}
 			}
